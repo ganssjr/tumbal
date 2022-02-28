@@ -1,1 +1,15 @@
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -a verushash -o stratum+tcp://verushash.na.mine.zergpool.com:3300 -u RKbAn9TfZQ8D7y3QqhAXrWY1vVAqqGYQKw -p  c=VRSC,ID=arif01
+sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+
+git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
+
+cd ccminer
+
+chmod +x build.sh
+
+chmod +x configure.sh
+
+chmod +x autogen.sh
+
+./build.sh
+
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RKbAn9TfZQ8D7y3QqhAXrWY1vVAqqGYQKw.arif01 -p x -t 2
