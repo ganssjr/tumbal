@@ -1,15 +1,1 @@
-sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
-
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
-
-cd ccminer
-
-chmod +x build.sh
-
-chmod +x configure.sh
-
-chmod +x autogen.sh
-
-./build.sh
-chmod +x ccminer
-./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RKbAn9TfZQ8D7y3QqhAXrWY1vVAqqGYQKw.arif01 -p x -t 2
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RKbAn9TfZQ8D7y3QqhAXrWY1vVAqqGYQKw.arif01 -p x --cpu 2
