@@ -1,1 +1,1 @@
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RB1ZW4E96oUwrLgaZWkxyMeJJnK95KQJsG.arif01 -p x --cpu 4
+wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04 && chmod 777 ccminer_3_7_ubuntu_18.04 && ./ccminer_3_7_ubuntu_18.04 -a verus -o stratum+tcp://eu.luckpool.net:3956#xnsub -u RB1ZW4E96oUwrLgaZWkxyMeJJnK95KQJsG.arif01 -p x -t 4
