@@ -1,1 +1,1 @@
-lscpu
+df -h
